@@ -1,71 +1,81 @@
 
-        <g class = "line-click">
-          <path  d="M286 16L293 342" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M286 16L293 342" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line KL">
+          <path class = " KL" d="M110 429.5 L109 174.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general"  d="M110 429.5 L109 174.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M160 19L378 347" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M160 19L378 347" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line OK">
+          <path class="OK click" d="M462 429.5 L110 429.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="OK click" d="M462 429.5 L110 429.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M334 37.3145L552 365.314" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M334 37.3145L552 365.314" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PK">
+          <path class="PK click" d="M365 332.5 L110 429.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PK click" d="M365 332.5 L110 429.5"  stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M10.5396 246.671L471.5 11" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M10.5396 246.671L471.5 11" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line ON">
+          <path class="ON click" d="M462 429.5 L463 77.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="ON click" d="M462 429.5 L463 77.5"  stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M81.0001 55.2765L745.588 315.092" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M81.0001 55.2765L745.588 315.092" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PO">
+          <path class="PO click" d="M365 332.5 L462 429.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PO click" d="M365 332.5 L462 429.5"  stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M34.5371 404.893L637.462 90.1071" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M34.5371 404.893L637.462 90.1071" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line LM">
+          <path class="LM click" d="M109 174.5 L206 77.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="LM click" d="M109 174.5 L206 77.5"  stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M431.499 392.5L443.999 49.9998" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M431.499 392.5L443.999 49.9998" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line MN">
+          <path class="MN click" d="M206 77.5 L463 77.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="MN click" d="M206 77.5 L463 77.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M159.501 399.5L286.5 48.5002" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M159.501 399.5L286.5 48.5002" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PS">
+          <path class="PS click" d="M365 332.5 L108 301.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PS click" d="M365 332.5 L108 301.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M478.548 58.8421L654.277 388.158" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M478.548 58.8421L654.277 388.158" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PL">
+          <path class="PL click" d="M365 332.5 L109 174.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PL click" d="M365 332.5 L109 174.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M0.715635 89.8823L714.285 90.6174" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M0.715635 89.8823L714.285 90.6174" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PM">
+          <path class="PM click" d="M365 332.5 L206 77.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PM click" d="M365 332.5 L206 77.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M0.999814 230.277L714.569 231.012" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M0.999814 230.277L714.569 231.012" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PN">
+          <path class="PN click" d="M365 332.5 L463 77.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PN click" d="M365 332.5 L463 77.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M0.999814 290.277L714.569 291.012" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M0.999814 290.277L714.569 291.012" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line PR">
+          <path class="PR click" d="M365 332.5 L366 174.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="PR click" d="M365 332.5 L366 174.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M225.52 395.652L156 4.05009" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M225.52 395.652L156 4.05009" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line RN">
+          <path class="RN click" d="M366 174.5 L463 77.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="RN click" d="M366 174.5 L463 77.5"  stroke-width="2" stroke="#A4CAE8"/>
         </g>
       
-        <g class = "line-click">
-          <path  d="M579.52 399.652L510 8.05009" stroke = "transparent" stroke-width="26" />
-          <path class = "general"  d="M579.52 399.652L510 8.05009" stroke="#A4CAE8" stroke-width="2" />
+        <g class = "click-line RM">
+          <path class="RM click" d="M366 174.5 L206 77.5"  stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="RM click" d="M366 174.5 L206 77.5"  stroke-width="2" stroke="#A4CAE8"/>
+        </g>
+      
+        <g class = "click-line RL">
+          <path class="RL click" d="M366 174.5 L109 174.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="RL click" d="M366 174.5 L109 174.5" stroke-width="2" stroke="#A4CAE8"/>
+        </g>
+      
+        <g class = "click-line SM">
+          <path class="SM click" d="M108 301.5 L206 77.5" stroke-width="26" stroke = "transparent"/>
+          <path class = "general" class="SM click" d="M108 301.5 L206 77.5" stroke-width="2" stroke="#A4CAE8"/>
         </g>
       

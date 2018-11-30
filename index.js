@@ -5,7 +5,7 @@ const colors = require('colors');
 
 
 
-const rege = new RegExp("<path class=\"line-click\".+?\/>", "ig")
+const rege = new RegExp("<path .+?\/>", "ig")
 
 let inFile = ""
 
@@ -16,11 +16,13 @@ del.promise(['out.txt']).then(() => {
     let _out = text.match(rege)
     _svgUpdateCount = 0
     _out.forEach(( value, index ) => {
+      if (!value.includes('click')) return 0;
       console.log(`[wip]: Itration ${index} doing...`.green)
+      let _name = value.match(/[A-Z]+/g)[0]
       inFile = inFile + `
-        <g class = "line-click">
-          ${value.replace('stroke-width="2"', 'stroke-width="26"').replace(/stroke="[A-Z0-9#]+"/, 'stroke = "transparent"').replace(/class="line-click"/ig, '')}
-          ${value.replace('<path', '<path class = "general"').replace(/class="line-click"/ig, '')}
+        <g class = "click-line ${_name}">
+          ${value.replace('stroke-width="2"', 'stroke-width="26"').replace(/stroke="[A-Z0-9#]+"/, 'stroke = "transparent"').replace(/class="click/ig, 'class = "')}
+          ${value.replace('<path', '<path class = "general"').replace(/class="click (.+?)"/ig, '')}
         </g>
       `
       _svgUpdateCount = index
